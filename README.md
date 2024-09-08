@@ -2,7 +2,7 @@
 
 <center><img src="images/device-front.jpg" width="80%"></center>
 
-This is my second-every PCB, an Arduino Tetris game based around a attiny85. Most of the code was inspired by this hack https://github.com/jfoucher/attiny-tetris/ — however I made a number of modern modifications to Tetris (7-bag randomiser, DAS, debounce, NES speed improvements, new level and line system, new fonts). 
+This is my second-ever PCB, an Arduino Tetris game based around a attiny85. Most of the code was inspired by this hack https://github.com/jfoucher/attiny-tetris/ — however I made a number of modern modifications to Tetris (7-bag randomiser, DAS, debounce, NES speed improvements, new level and line system, new fonts). 
 
 I started with a breadboard and then thought I'd try my hand at designing a PCB in Kicad. Here's [version 1](https://www.reddit.com/r/arduino/comments/1eph7te/my_first_pcb_an_arduino_attiny85_handheld/) and this project is version 2. Please excuse my poor hand soldering, as I'm only just beginning!
 
