@@ -56,22 +56,17 @@
 
 #include <Tiny4kOLED.h>
 
-#define SCREEN_WIDTH 16
-#define SCREEN_HEIGHT 24
-
-#define EEPROM_ADDR 4
-
-#define PIN_LEFT PB4
-#define PIN_RIGHT PB1
-#define PIN_ROTATE PB3
-
-#define LEVEL_DELAY 28
-
-
-#define TETROMINOES_BAG_SIZE 7
-
 uint8_t bag[TETROMINOES_BAG_SIZE];
 uint8_t bagIndex = 0;
+
+const uint8_t SCREEN_WIDTH = 16;
+const uint8_t SCREEN_HEIGHT = 24;
+const uint8_t EEPROM_ADDR = 4;
+const uint8_t PIN_LEFT = PB4;
+const uint8_t PIN_RIGHT = PB1;
+const uint8_t PIN_ROTATE = PB3;
+const uint8_t LEVEL_DELAY = 28;
+const uint8_t TETROMINOES_BAG_SIZE = 7;
 
 const uint8_t bitmap_lines[] PROGMEM = {
   0b01001000,0b10100000,0b01000101,0b00101110,
